@@ -1,0 +1,88 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    background-color: #FFFDE7;
+    color: #5D4037;
+    font-size: 18px;
+  }
+  
+  /* Dark mode */
+  body.dark {
+    background-color: #5D4037;
+    color: #FFFDE7;
+  }
+  
+  h1 {
+    color: #8D6E63;
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+  }
+  
+  /* Basic button styling */
+  button {
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    color: #5D4037;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  body.dark button {
+    background-color: #795548;
+    color: #FFFDE7;
+  }
+  
+  /* Timer display */
+  #timerDisplay {
+    font-size: 6rem;
+    font-family: monospace;
+    margin: 40px 0;
+    font-weight: bold;
+  }
+  
+  /* Active tab and button colors */
+  .active {
+    background-color: #A1887F;
+    color: white;
+  }
+  
+  #startButton {
+    background-color: #43A047;
+    color: white;
+    padding: 18px 30px;
+  }
+  
+  #stopButton {
+    background-color: #E53935;
+    color: white;
+    padding: 18px 30px;
+  }
+  
+  #resetButton {
+    background-color: #FFC107;
+    color: white;
+    padding: 18px 30px;
+  }
+  
+  /* Mode buttons */
+  #stopwatchTab,
+  #pomodoroTab {
+    padding: 15px 25px;
+    font-size: 1.3rem;
+    min-width: 160px;
+  }
+  
+  /* Simple container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
